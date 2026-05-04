@@ -29,7 +29,7 @@ public class Main{
 	   
 	   //Iteration in HashMap
 	   
-	   //Entry set --> consist of both  vey and value pairs
+	   //Entry set --> consist of both  key and value pairs
 	   //for(Map.Entry<String,Integer> e : map.entrySet()){
 	   //    System.out.println(e.getKey());
 	   //    System.out.println(e.getValue());
