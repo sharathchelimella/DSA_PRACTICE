@@ -21,3 +21,17 @@ class Solution {
         
     }
 }
+
+
+//Another aproach
+
+class Solution {
+    public int singleNumber(int[] nums) {
+        int res = 0;
+        for(int num : nums){        //when ever we get the  repeated both elements will be removed
+            res = res^num;
+        }
+        return res;
+    }
+
+}
