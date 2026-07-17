@@ -48,12 +48,9 @@ class Main {
         }
         return sum;
     }
-
     public static boolean HappyNumb(int n) {
-
         int sl = n;
         int fs = n;
-
         while (true) {
             sl = sumofSquareofDigit(sl);
             fs = sumofSquareofDigit(sumofSquareofDigit(fs));
